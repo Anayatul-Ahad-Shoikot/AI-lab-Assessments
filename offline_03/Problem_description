@@ -1,0 +1,20 @@
+The initial experiment is done with 15 types of common vegetables that are found throughout the world. The vegetables that are chosen for the experimentation are- bean, bitter gourd, bottle gourd, brinjal, broccoli, 
+cabbage, capsicum, carrot, cauliflower, cucumber, papaya, potato, pumpkin, radish and tomato. A total of 21000 images from 15 classes are used where each class contains 1400 images of size 224×224 and in *.jpg format. 
+
+This dataset contains three folders:
+train (15000 images)
+test (3000 images)
+validation (3000 images)
+each of the above folders contains 15 subfolders for different vegetables wherein the images for respective vegetables are present.
+For our coding purpose, we will only consider train and test folders. I make a notebook for you where I have already loader train and test data with resizing (32x32) and gray color. You can use that code.
+dataset link https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset/data
+Instead of downloading and upload dataset in google drive, you can directly write code on kaggle platform.
+
+Your task:
+i. All algorithm will implemented with only numpy and basic python.
+ii. Design KNN class which has init(k) constructor and train(X_train,Y_train,X_test) function. init function sets the hyperparameter k and train function takes train and test data, finds the output of the test data  only using numpy. 
+iii. Design Logistics Regression class which has init(epochs, lr) constructor, train(X,y), and predict(X) function. init function sets the hyperparameter epochs and learning rate. train function is used to training the model
+(find the perfect weight and bias). predict function is used to find the output of the test data.
+iv. Design Kmeans class which has init(k) constructor and train(X) function. init function sets the hyperparameter k and train function takes X and make k cluster of them. 
+
+Helpful notebook https://www.kaggle.com/code/rkmajor/offline3.
