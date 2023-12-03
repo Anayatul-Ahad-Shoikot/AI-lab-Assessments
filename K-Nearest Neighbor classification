@@ -1,0 +1,4 @@
+KNN classification give the prediction of any data from a bunch of classes/groups/answers , from which group/class/answer will fall.
+For this, KNN need lots previous records to learn and predict.
+It analysis the data with new given(test) data and make classes and divide the train data set int many classes/groups/answers.
+for value of K = 1, 2, 3, 5, .... it predict the class of test data
